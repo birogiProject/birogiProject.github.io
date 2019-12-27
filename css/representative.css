@@ -1,0 +1,43 @@
+body {
+	background-color: #F0F0F0;
+	/* background-color: #CCCCCC; */
+}
+
+div#img1 {
+	background-image: url("../img/002c86b8680ae17411e2c65b6e1a2865_s.jpg");
+	background-size: cover;
+	width: 180px;
+	height: 180px;
+	border-radius: 50%;
+	border: 3px solid white;
+	background-position: center center;
+	display: inline-block;
+}
+div#img2 {
+	background-image: url("../img/9ac9b67ec97dad255c0233fae9ad053d_s.jpg");
+	background-size: cover;
+	width: 180px;
+	height: 180px;
+	border-radius: 50%;
+	border: 3px solid white;
+	background-position: center center;
+	display: inline-block;
+}
+div#img3 {
+	background-image: url("../img/CAT9V9A9145_TP_V4.jpg");
+	background-size: cover;
+	width: 180px;
+	height: 180px;
+	border-radius: 50%;
+	border: 3px solid white;
+	background-position: center center;
+	display: inline-block;
+}
+
+.img-gallery {
+	padding: 50px;
+}
+.img-title {
+	/* text-align: center; */
+	margin: 10px 0;
+}

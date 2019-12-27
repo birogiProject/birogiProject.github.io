@@ -1,0 +1,52 @@
+body {
+	background-color: #F0F0F0;
+	/* background-color: #CCCCCC; */
+}
+
+/* .navbar-light .navbar-nav .nav-link {
+	color: #ECACB5;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+	color: #DA6272;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #DA6272;
+} */
+
+/* 画像サイズ自動調整 */
+.resizeimage {
+	max-width: 640px;
+}
+.resizeimage img{
+	width: 100;
+}
+/* 画像トリミング */
+/* .topimg {
+	clip: rect(50px 500px 300px 100px);
+} */
+/* .jumbotron {
+	background: url(img/641c3cb1a10eff2a58f275f98d8a5328_m.jpg) center no-repeat;
+	background-size: cover;
+}
+.crop {
+	float: left;
+	overflow: hidden;
+	border: 2px solid #630;
+}
+.crop img {
+	margin: -20px -15px -40px -55px;
+} */
+
+
+.img-gallery {
+	padding: 50px;
+}
+.img-title {
+	text-align: center;
+	margin: 10px 0;
+}
+img {
+	width: 100%;
+}
