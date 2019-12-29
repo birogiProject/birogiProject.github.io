@@ -26,7 +26,16 @@ body {
 .example {
 	position: relative;
 }
-.example h1 {
+div.example h1.imgtitle1 {
+	position: absolute;
+	color: white;
+	/* font-weight: bold; */
+	font-size: 2em;
+	font-family: Quicksand, sans-serif;
+	bottom: 56px;
+	left: 45px;
+}
+div.example h1.imgtitle2 {
 	position: absolute;
 	color: white;
 	/* font-weight: bold; */
