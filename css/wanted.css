@@ -5,4 +5,12 @@ body {
 
 div.space {
 	margin-top: 16px;
+	margin-bottom:32px;
+}
+
+.wantedimg {
+	max-width: 600px;
+}
+img {
+	width: 100%;
 }

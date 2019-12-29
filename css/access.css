@@ -1,0 +1,19 @@
+body {
+	background-color: #F0F0F0;
+	/* background-color: #CCCCCC; */
+}
+div.space {
+	margin-top: 16px;
+	margin-bottom: 32px;
+}
+p.comment{
+	margin-bottom: 0;
+}
+p.mapaddress {
+	margin-bottom: 2px;
+	margin-left: 3px;
+}
+
+iframe {
+	width: 100%;
+}
