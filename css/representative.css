@@ -35,9 +35,13 @@ div#img3 {
 }
 
 .img-gallery {
-	padding: 50px;
+	padding: 24px;
 }
 .img-title {
-	/* text-align: center; */
+	/* margin: 8px 0 10px 0; */
 	margin: 10px 0;
+}
+
+div.comment p {
+	margin-bottom: 8px;
 }

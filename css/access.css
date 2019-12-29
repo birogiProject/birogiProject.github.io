@@ -6,12 +6,12 @@ div.space {
 	margin-top: 16px;
 	margin-bottom: 32px;
 }
-p.comment{
-	margin-bottom: 0;
+p.comment p{
+	margin-bottom: 8px;
 }
 p.mapaddress {
 	margin-bottom: 2px;
-	margin-left: 3px;
+	margin-left: 2px;
 }
 
 iframe {

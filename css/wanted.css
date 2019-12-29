@@ -10,7 +10,12 @@ div.space {
 
 .wantedimg {
 	max-width: 600px;
+	margin-bottom: 8px;
 }
 img {
 	width: 100%;
+}
+
+div.comment p{
+	margin-bottom: 8px;
 }

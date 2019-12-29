@@ -18,11 +18,25 @@ body {
 /* 画像サイズ自動調整 */
 .resizeimage {
 	max-width: 640px;
+	margin-top: 24px;
 }
 .resizeimage img{
 	width: 100%;
-	
 }
+.example {
+	position: relative;
+}
+.example h1 {
+	position: absolute;
+	color: white;
+	/* font-weight: bold; */
+	font-size: 3em;
+	font-family: Quicksand, sans-serif;
+	bottom: 0;
+	left: 45px;
+}
+
+
 /* 画像トリミング */
 /* .topimg {
 	clip: rect(50px 500px 300px 100px);
@@ -42,7 +56,7 @@ body {
 
 
 .img-gallery {
-	padding: 50px;
+	padding: 24px;
 }
 .img-title {
 	text-align: center;

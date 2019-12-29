@@ -3,6 +3,13 @@ body {
 	/* background-color: #CCCCCC; */
 }
 
-div.space {
+div.aboutspace {
 	margin-top: 16px;
+}
+
+div.comment {
+	margin-left: 3px;
+}
+div.comment p {
+	margin-bottom: 8px;
 }
