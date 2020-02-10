@@ -1,6 +1,6 @@
 body {
 	background-color: #F0F0F0;
-	/* background-color: #CCCCCC; */
+	padding-top: 50px;
 }
 
 div#img1 {
@@ -38,7 +38,6 @@ div#img3 {
 	padding: 24px;
 }
 .img-title {
-	/* margin: 8px 0 10px 0; */
 	margin: 10px 0;
 }
 

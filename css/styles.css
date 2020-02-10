@@ -1,76 +1,89 @@
 body {
 	background-color: #F0F0F0;
-	/* background-color: #CCCCCC; */
+	padding-top: 65px;
 }
 
-/* .navbar-light .navbar-nav .nav-link {
-	color: #ECACB5;
-}
-
-.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
-	color: #DA6272;
-}
-
-.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
-    color: #DA6272;
-} */
-
-/* 画像サイズ自動調整 */
 .resizeimage {
 	max-width: 640px;
-	margin-top: 20px;
+	position: relative;
 }
 .resizeimage img{
 	width: 100%;
 }
-.example {
-	position: relative;
-}
-div.example h1.imgtitle1 {
+
+div.resizeimage h1.imgtitle1 {
 	position: absolute;
 	color: white;
-	/* font-weight: bold; */
 	font-size: 2em;
 	font-family: Quicksand, sans-serif;
 	bottom: 56px;
 	left: 45px;
+	opacity: 0.9;
 }
-div.example h1.imgtitle2 {
+div.resizeimage h1.imgtitle2 {
 	position: absolute;
 	color: white;
-	/* font-weight: bold; */
 	font-size: 3em;
 	font-family: Quicksand, sans-serif;
 	bottom: 0;
 	left: 45px;
+	opacity: 1.0;
 }
 
-
-/* 画像トリミング */
-/* .topimg {
-	clip: rect(50px 500px 300px 100px);
-} */
-/* .jumbotron {
-	background: url(img/641c3cb1a10eff2a58f275f98d8a5328_m.jpg) center no-repeat;
-	background-size: cover;
+@media(max-width: 670px){
+	div.resizeimage h1.imgtitle1 {
+		font-size: 1.7em;
+		bottom: 50px;
+	}
+	div.resizeimage h1.imgtitle2 {
+		font-size: 2.5em;
+	}
 }
-.crop {
-	float: left;
-	overflow: hidden;
-	border: 2px solid #630;
-}
-.crop img {
-	margin: -20px -15px -40px -55px;
-} */
-
 
 .img-gallery {
-	padding: 24px;
+	padding: 20px;
+
 }
+.slider a {
+	text-decoration: none;
+}
+.slider a:hover {
+	opacity: 0.9;
+}
+.slider a:link {
+	color: black;
+}
+.slider a:visited {
+	color: black;
+}
+.slider a:focus {
+	outline: none;
+}
+
+
 .img-title {
 	text-align: center;
 	margin: 10px 0;
 }
-a img {
+
+.slide-item {
+	margin: auto 5px;
+	margin-bottom: 3px;
+	box-shadow: 2px 2px #ccc;
+}
+.slide-item:active {
+	box-shadow: none;
+	position: relative;
+	top: 2px;
+	left: 2px;
+}
+
+.slide-img {
 	width: 100%;
+	max-height: 200px;
+	object-fit: cover;
+}
+
+.slick-prev:before, .slick-next:before {
+	color: black;
 }
