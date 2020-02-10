@@ -41,6 +41,7 @@ div.resizeimage h1.imgtitle2 {
 }
 
 .img-gallery {
+	width: 90%;
 	padding: 20px;
 
 }
